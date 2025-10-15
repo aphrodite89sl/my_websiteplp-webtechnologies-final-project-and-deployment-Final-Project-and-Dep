@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fff8f0;
+  color: #333;
+}
+
+header {
+  background-color: #f8c291;
+  text-align: center;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a.active {
+  color: #e74c3c;
+}
+
+.hero {
+  background: url('../images/bakery.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff3e0;
+  border-radius: 8px;
+}
+
+input, textarea, button {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #f8c291;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e59866;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Sweet Treats Bakery</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Sweet Treats Bakery</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Contact Us</h2>
+      <form onsubmit="return validateForm()">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" placeholder="Your name" /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" placeholder="Your email" /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea id="message" placeholder="Write your message..."></textarea><br />
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sweet Treats Bakery | Designed by Chef On The Curb</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
+
+
