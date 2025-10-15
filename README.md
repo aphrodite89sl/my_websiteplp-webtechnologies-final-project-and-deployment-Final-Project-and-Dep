@@ -17,5 +17,5 @@ A simple multipage website built using **HTML5**, **CSS3**, and **JavaScript**.
 - JavaScript form validation  
 
 ## 🚀 Live Demo
-[View live site]([aphrodite89sl.github.io](https://aphrodite89sl.github.io/my_websiteplp-webtechnologies-final-project-and-deployment-Final-Project-and-Dep/)
+[View live site](https://aphrodite89sl.github.io/my_websiteplp-webtechnologies-final-project-and-deployment-Final-Project-and-Dep/)
 
